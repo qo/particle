@@ -1,0 +1,16 @@
+{
+  "name": "particle",
+  "version": "1.0.0",
+  "description": "Electron template for widget-like applications",
+  "main": "src/main/main.js",
+  "scripts": {
+    "start": "electron .",
+    "hello-world-example": "electron ./examples/hello-world/src/main",
+    "ships-example": "electron ./examples/ships/src/main"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "25.1.0"
+  }
+}
